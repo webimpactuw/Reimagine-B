@@ -1,4 +1,17 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main-logo { 
+    font-size: 4em;
+    font-weight: 800;
+}
+
+#sub-logo {
+    font-size: 1em;
+    font-weight: 30;
 }
