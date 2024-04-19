@@ -13,10 +13,10 @@ const Navbar = () => {
           <Link to="/" className="nav-link left-item"><img src={logo} alt="logo" className="logo"/></Link>
         </li>
         <li className="nav-item">
-          <Link to="/contact" className="nav-link"><img src={bookmark} alt="bookmark" className="bookmark"/></Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact" className="nav-link">username@uw.edu</Link>
+          <Link to="/contact" className="nav-link">
+            <img src={bookmark} alt="bookmark" className="bookmark"/>
+            username@uw.edu
+          </Link>
         </li>
       </ul>
     </nav>
