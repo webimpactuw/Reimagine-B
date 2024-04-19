@@ -15,12 +15,12 @@
     padding: 0 20px;
 }
 
-.nav-item:nth-child(0) {
+.nav-item:nth-child(1) {
     left: 0;
 }
 
-.nav-item:nth-child(1),
-.nav-item:nth-child(2) {
+.nav-item:nth-child(2),
+.nav-item:nth-child(3) {
     margin-left: auto;
 }
 
@@ -36,5 +36,10 @@
 
 .bookmark {
     width: 1.3em;
+    height: 1.6em;
+}
+
+.logo {
+    width: 1.6em;
     height: 1.6em;
 }
