@@ -1,0 +1,89 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container fill the viewport height */
+    background-color: black; /* Background color for the whole page */
+    overflow: hidden; /* trying to make it so can't scroll */
+  }
+  
+  .inner-box {
+    display: flex;
+    padding: 70px; /* Add padding to create space between the content and the box */
+    background-color: #333; /* Background color for the inner box */
+    border-radius: 40px; /* Rounded corners for the inner box */
+    width: 75%; /* Set width to a percentage of the container width */
+    /* max-width: 1100px; Set maximum width for the inner box */
+    height: 60%; /* Set height to a percentage of the container height */
+    text-align: left;
+    /* max-height: 800px; Set maximum height for the inner box */
+  }
+  
+  .left-box {
+    width: 50%; /* Set the width of the left box */
+    padding: 30px; /* Add padding to create space between the content and the box border */
+  }
+
+  .title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+  }
+
+  .title img {
+    float: left;
+    margin-right: 10px;
+    padding-right: 30px;
+  }
+
+  .description h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: medium;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: scroll; 
+  }
+  
+  .right-box {
+    flex: 1; /* Allow the right box to take up remaining space */
+    padding: 20px; /* Add padding to create space between the content and the box border */
+  }
+
+  .right-box h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: medium;
+    margin: 0;
+  }
+
+  .right-box p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    margin: 0;
+  }
+
+  .line {
+    width: 1px; /* Set the width of the line */
+    background-color: white; /* Set the color of the line */
+    height: 50%; /* Set the height of the line to match the height of the inner-box */
+    margin: 0 20px; /* Add some margin to separate the line from the content */
+    align-self: center;
+  }
+
+
+  .socials {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .inner-box h1,
+  .inner-box p {
+    /* Styles for the text content inside the inner box */
+    color: white;
+    /* Add any other styles as needed */
+  }
