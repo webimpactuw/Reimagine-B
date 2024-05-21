@@ -8,7 +8,7 @@ import line from '../img/line.png';
 const ListItem = ({ img, alt, name, route }) => {
     return (
         <div>
-            <img id="line" src={line} alt="line" className="line" />
+            <img id="line" src={line} alt="line" className="list-line" />
             <div className="listItem">
                 <div className="imageAndTitle">
                     <img id="asa" src={img} alt={alt} className="itemImage" />

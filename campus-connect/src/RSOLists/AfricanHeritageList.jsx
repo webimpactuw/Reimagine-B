@@ -14,12 +14,14 @@ const AfricanHeritageList = () => {
         DESCRIPTION NEEDED
       </p>
       <p className="subheader-list">RSO Title</p>
-      <ListItem img={asa} alt={'African Student Association'} name={'African Student Association'} route={'AfricanStudentsAssociation'}></ListItem>
-      <ListItem img={esa} alt={'East African Student Association Logo'} name={'East African Student Association'} route={''}></ListItem>
-      <ListItem img={osu} alt={'Oromo Student Union Logo'} name={'Oromo Student Union'} route={''}></ListItem>
-      <ListItem img={ssu} alt={'Somali Student Association Logo'} name={'Somali Student Association'} route={''}></ListItem>
-      <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={''}></ListItem>
-      <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={''}></ListItem>
+      <ListItem img={asa} alt={'African Student Association'} name={'African Student Association'} route={'AfricanStudentAssociation'}></ListItem>
+      <ListItem img={esa} alt={'East African Student Association Logo'} name={'East African Student Association'} route={'EastAfricanStudentAssociation'}></ListItem>
+      <ListItem img={osu} alt={'Oromo Student Union Logo'} name={'Oromo Student Union'} route={'OromoStudentUnion'}></ListItem>
+      <ListItem img={ssu} alt={'Somali Student Association Logo'} name={'Somali Student Association'} route={'SomaliStudentAssociation'}></ListItem>
+      <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={'AfricanStudentsAssociation'}></ListItem>
+      <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={'AfricanStudentsAssociation'}></ListItem>
+
+
     </div>
   );
 }

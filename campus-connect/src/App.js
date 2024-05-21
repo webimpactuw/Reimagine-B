@@ -65,7 +65,7 @@ import CulturalFraternityList from './RSOLists/CulturalFraternityList';
 import MulticulturalList from './RSOLists/MulticulturalList';
 import ReligiousSpiritualList from './RSOLists/ReligiousSpiritual';
 import InterestActivityList from './RSOLists/InterestActivityList';
-
+import Somali from './African Heritage/Somali';
 
 function App() {
   // const path = winow.location.href.split("/"); // Get current url
@@ -142,7 +142,7 @@ function App() {
           <Route path="/TraditionalChineseDance" element={<ChineseDance />} />
           <Route path="/StudentsOfColorForPublicHealth" element={<PublicHealth />} />
           <Route path="/DeltaLambdaPhi" element={<DeltaLambda />} />
-
+          <Route path="/SomaliStudentAssociation" element={<Somali />} />
         </Routes>
       </div>
     </Router>
