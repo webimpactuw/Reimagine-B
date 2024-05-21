@@ -19,8 +19,6 @@ const AfricanHeritageList = () => {
       <ListItem img={osu} alt={'Oromo Student Union Logo'} name={'Oromo Student Union'} route={'OromoStudentUnion'}></ListItem>
       <ListItem img={ssu} alt={'Somali Student Association Logo'} name={'Somali Student Association'} route={'SomaliStudentAssociation'}></ListItem>
       <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={'AfricanStudentsAssociation'}></ListItem>
-      <ListItem img={sas} alt={'Students African Studies Logo'} name={'Students African Studies Association'} route={'AfricanStudentsAssociation'}></ListItem>
-
 
     </div>
   );

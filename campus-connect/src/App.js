@@ -143,6 +143,7 @@ function App() {
           <Route path="/StudentsOfColorForPublicHealth" element={<PublicHealth />} />
           <Route path="/DeltaLambdaPhi" element={<DeltaLambda />} />
           <Route path="/SomaliStudentAssociation" element={<Somali />} />
+
         </Routes>
       </div>
     </Router>
