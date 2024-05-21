@@ -59,6 +59,12 @@ import ChineseDance from './Interest/ChineseDance';
 import PublicHealth from './Interest/PublicHealth';
 import Theatre from './Asian Heritage/Theatre';
 import DeltaLambda from './Frats/DeltaLambda';
+import AfricanHeritageList from './RSOLists/AfricanHeritageList';
+import AsianHeritageList from './RSOLists/AsianHeritageList';
+import CulturalFraternityList from './RSOLists/CulturalFraternityList';
+import MulticulturalList from './RSOLists/MulticulturalList';
+import ReligiousSpiritualList from './RSOLists/ReligiousSpiritual';
+import InterestActivityList from './RSOLists/InterestActivityList';
 
 
 function App() {
@@ -71,31 +77,37 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/african-heritage" element={<AfricanHeritageList />} />
+          <Route path="/asian-heritage" element={<AsianHeritageList />} />
+          <Route path="/cultural-fraternity" element={<CulturalFraternityList />} />
+          <Route path="/multicultural" element={<MulticulturalList />} />
+          <Route path="/religious-spiritual" element={<ReligiousSpiritualList />} />
+          <Route path="/interest-activity" element={<InterestActivityList />} />
           <Route path="/Awaaz" element={<Awaaz />} />
-          <Route path="/Bengali" element={<Bengali/>} />
-          <Route path="/HongKong" element={<HongKong/>} />
-          <Route path="/Khmer" element={<Khmer/>} />
-          <Route path="/Lao" element={<Lao/>} />
-          <Route path="/Taiwanese" element={<Taiwanese/>} />
-          <Route path="/Filipino" element={<Filipino/>} />
-          <Route path="/Indian" element={<Indian/>} />
-          <Route path="/Korean" element={<Korean/>} />
-          <Route path="/Taiwanese_Overseas" element={<Taiwanese_Overseas/>} />
-          <Route path="/Vietnamese" element={<Vietnamese/>} />
-          <Route path="/ChineseTheaterClub" element={<Theatre/>} />
-          <Route path="/Chinese" element={<Chinese/>} />
-          <Route path="/Hmong" element={<Hmong/>} />
-          <Route path="/Japanese" element={<Japanese/>} />
-          <Route path="/Kendo" element={<Kendo/>} />
-          <Route path="/TaiwaneseStudent" element={<TaiwaneseStudent/>} />
-          <Route path="/Akdphi" element={<Akdphi/>} />
-          <Route path="/KappaDelta" element={<KappaDelta/>} />
-          <Route path="/LambdaTheta" element={<LambdaTheta/>} />
-          <Route path="/SigmaLambda" element={<SigmaLambda/>} />
-          <Route path="/ChiDelta" element={<ChiDelta/>} />
-          <Route path="/ChiSigma" element={<ChiSigma/>} />
-          <Route path="/DeltaPi" element={<DeltaPi/>} />
-          <Route path="/LambdaPhi" element={<LambdaPhi/>} />
+          <Route path="/Bengali" element={<Bengali />} />
+          <Route path="/HongKong" element={<HongKong />} />
+          <Route path="/Khmer" element={<Khmer />} />
+          <Route path="/Lao" element={<Lao />} />
+          <Route path="/Taiwanese" element={<Taiwanese />} />
+          <Route path="/Filipino" element={<Filipino />} />
+          <Route path="/Indian" element={<Indian />} />
+          <Route path="/Korean" element={<Korean />} />
+          <Route path="/Taiwanese_Overseas" element={<Taiwanese_Overseas />} />
+          <Route path="/Vietnamese" element={<Vietnamese />} />
+          <Route path="/ChineseTheaterClub" element={<Theatre />} />
+          <Route path="/Chinese" element={<Chinese />} />
+          <Route path="/Hmong" element={<Hmong />} />
+          <Route path="/Japanese" element={<Japanese />} />
+          <Route path="/Kendo" element={<Kendo />} />
+          <Route path="/TaiwaneseStudent" element={<TaiwaneseStudent />} />
+          <Route path="/Akdphi" element={<Akdphi />} />
+          <Route path="/KappaDelta" element={<KappaDelta />} />
+          <Route path="/LambdaTheta" element={<LambdaTheta />} />
+          <Route path="/SigmaLambda" element={<SigmaLambda />} />
+          <Route path="/ChiDelta" element={<ChiDelta />} />
+          <Route path="/ChiSigma" element={<ChiSigma />} />
+          <Route path="/DeltaPi" element={<DeltaPi />} />
+          <Route path="/LambdaPhi" element={<LambdaPhi />} />
           <Route path="/OmegaDelta" element={<OmegaDelta />} />
           <Route path="/SigmaLambdaGamma" element={<SigmaLambdaGamma />} />
           <Route path="/PiNu" element={<PiNu />} />
@@ -118,7 +130,7 @@ function App() {
           <Route path="/AfricanStudentAssociation" element={<African />} />
           <Route path="/OromoStudentUnion" element={<Oromo />} />
           <Route path="/EastAfricanStudentAssociation" element={<EastAfrican />} />
-          <Route path="/AfricanStudiesAssociation" element={<AfricanStudies />} />
+          <Route path="/AfricanStudentsAssociation" element={<AfricanStudies />} />
           <Route path="/BhaktiYogaClub" element={<Bhakti />} />
           <Route path="/MuslimStudentAssociation" element={<Muslim />} />
           <Route path="/YUVAraga" element={<YUVAraga />} />
@@ -131,9 +143,6 @@ function App() {
           <Route path="/StudentsOfColorForPublicHealth" element={<PublicHealth />} />
           <Route path="/DeltaLambdaPhi" element={<DeltaLambda />} />
 
-
-          {/* <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </div>
     </Router>
