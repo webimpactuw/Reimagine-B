@@ -6,7 +6,15 @@
     background-color: black; /* Background color for the whole page */
     overflow: hidden; /* trying to make it so can't scroll */
   }
-  
+
+  .title .img2 {
+    float: left;
+    margin-right: 10px;
+    padding-right: 30px;
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
   .inner-box {
     display: flex;
     padding: 70px; /* Add padding to create space between the content and the box */
@@ -16,6 +24,7 @@
     /* max-width: 1100px; Set maximum width for the inner box */
     height: 60%; /* Set height to a percentage of the container height */
     text-align: left;
+    margin-top: -70px;
     /* max-height: 800px; Set maximum height for the inner box */
   }
   
@@ -37,11 +46,55 @@
     margin-right: 10px;
     padding-right: 30px;
   }
+  
+  .descriptionDeltaLambda h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: 14px;
+    font-style: italic;
+    padding-top: 5px; /* Reduced padding between h3 elements */
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 5px; /* Reduced margin between h3 elements */
+  }
+    .descriptionKappaDelta h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: scroll; 
+  }
+
+  .listKappaDelta ul {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: scroll; 
+  }
+
+  .descriptionKorean h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 150;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: scroll; 
+  }
 
   .description h3 {
     font-family: 'Inter', sans-serif;
     font-weight: 150;
     font-size: medium;
+    font-size: calc(1em + 2px);
     font-style: italic;
     padding-top: 20px;
     padding-left: 40px;
@@ -52,18 +105,39 @@
   .right-box {
     flex: 1; /* Allow the right box to take up remaining space */
     padding: 20px; /* Add padding to create space between the content and the box border */
+    display: flex;
+    flex-direction: column; /* Align items in the center horizontally */
+    align-items: flex-start;
+    margin-top: 10vh; 
+    margin-left: 20px;
   }
+  
+  .contact1,
+  .contact2 {
+  display: flex;
+  margin-top: 20px; /* Add margin for spacing between contact information and social media icons */
+}
+
+  .contact1 a,
+  .contact2 a {
+  /* margin: 0 10px;  */
+  margin-left: 12px;
+}
 
   .right-box h3 {
     font-family: 'Inter', sans-serif;
     font-size: medium;
     margin: 0;
+    margin-left: 30px;
+    font-size: calc(1em + 2px);
   }
 
   .right-box p {
     font-family: 'Inter', sans-serif;
     font-weight: 150;
     margin: 0;
+    margin-left: 30px;
+    font-size: calc(1em + 1px);
   }
 
   .line {

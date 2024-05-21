@@ -1,12 +1,12 @@
 import React from 'react'
-import './styles/RSO.css';
-import img from './img/Awaaz logo.png';
-import website from './img/social4.png';
-import insta from './img/insta.png';
-import facebook from './img/facebook.png';
-import linkedin from './img/linkedin.png';
+import '../styles/RSO.css';
+import img from '../img/Awaaz logo.png';
+import website from '../img/social4.png';
+import insta from '../img/insta.png';
+import facebook from '../img/facebook.png';
+import linkedin from '../img/linkedin.png';
 
-const RSO = () => {
+const Awaaz = () => {
   return (
     <div className="page-container">
       <div className="inner-box">
@@ -24,27 +24,30 @@ const RSO = () => {
         <div className="line"></div> {/* Line between left and right boxes */}
         <div className="right-box">
           <h3>Contact Information</h3>
-          <p>Address: 19146 NE 66th Way Redmond, WA 98052 United States</p>
+          <p>Address: 19146 NE 66th Way</p>
+          <p>Redmond, WA 98052 United States</p>
           <p>Contact Email: aksh353@uw.edu</p>
           <p>Phone Number: 4254458643</p>
-          <div className="contact">
+          <div className="contact1">
             <a href= "https://uwawaaz.mystrikingly.com/">
               <img src= {website} alt="website" className="socials" />
             </a>
             <a href= "https://www.instagram.com/uwawaaz/">
               <img src= {insta} alt="insta" className="socials" />
             </a>
-            <a href= "https://www.facebook.com/UWAwaaz/">
+          </div>
+          <div className="contact2">
+          <a href= "https://www.facebook.com/UWAwaaz/">
               <img src= {facebook} alt="facebook" className="socials" />
             </a>
             <a href= "https://www.linkedin.com/company/uw-awaaz/">
               <img src= {linkedin} alt="linkedin" className="socials" />
             </a>
-          </div>
+          </div>  
         </div>
       </div>
     </div>
   );
 }
 
-export default RSO
+export default Awaaz
